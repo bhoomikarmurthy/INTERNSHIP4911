@@ -1,0 +1,7 @@
+digraph {
+	0 [label=imputation_median]
+	1 [label=scaler]
+	0 -> 1
+	2 [label=knn]
+	1 -> 2
+}
